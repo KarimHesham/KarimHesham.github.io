@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="trials.css">
+    <script src="unique1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+        
+          margin: 0;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        article{
+          font-size: 20px;
+        }
+        img {
+          vertical-align: middle;
+        }
+        
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+          position: relative;
+        }
+        
+        /* Hide the images by default */
+        .mySlides {
+          display: none;
+        }
+        
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+          cursor: pointer;
+        }
+        
+        /* Next & previous buttons */
+        .prev,
+        .next {
+          cursor: pointer;
+          position: absolute;
+          top: 40%;
+          width: auto;
+          padding: 16px;
+          margin-top: -50px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          -webkit-user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* Container for image text */
+        .caption-container {
+          text-align: center;
+          background-color: #222;
+          padding: 2px 16px;
+          color: white;
+        }
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Six columns side by side */
+        .column {
+          float: left;
+          width: 16.66%;
+        }
+        
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+          opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+          opacity: 1;
+        }
+        footer{
+          font-size: 14px;
+        }
+        </style>
+  </head>
+        <body>
+
+          <header class="header">
+            <nav class="navbar navbar-expand-sm  navbar-dark bg-white">
+              <!-- Brand/logo -->
+              <a class="navbar-brand" href="#">
+                <img src="LOGO.jpg"  id="logo" alt="logo">
+              </a>
+        
+          <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: black; font-size: 20px;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Politics.html" style="color: black; font-size: 20px;">Politics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html" style="color: black; font-size: 20px;">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entertainment.html" style="color: black; font-size: 20px;">Entertainment</a>
+                </li> 
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop"  style="color: black; font-size: 20px;" data-toggle="dropdown">
+                    More
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="unique1.html">Gallery</a>
+                    <a class="dropdown-item" href="unique2.html">Videos</a>
+                  </div>
+                </li>
+                </ul>
+                
+                <span class="date-header" style="color: black; margin-left: 40%;"><i class="fa fa-calendar" aria-hidden="true"></i> اThurdsay, 19th December  <i class="fa fa-clock-o" aria-hidden="true"></i> 11:00AM </span>  
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fa fa-facebook" style="color: black;"></i>
+                </a>
+                <a class="nav-link waves-effect waves-light">
+                    <i class="fa fa-twitter" style="color: black;"></i>
+                  </a>
+                  <a href="signup.html">
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                    </a>
+        
+              </div>
+        
+            </nav>
+        
+          <!--Indent between navbar and main content-->
+           
+          
+            <hr>
+            
+          </header>
+        
+        <div class="container">
+            <div class="row">
+        
+
+        
+        
+          <h2 style="text-align:center">Tesla unveils electric pickup truck with angular design and armored glass</h2>
+        
+          <div class="container">
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="21327108-0-image-a-77_1574408625400.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="appcup7_tesla-cybertruck_625x300_22_November_19.webp" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="tesla-cybertruck-reveal.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="https___api.thedrive.com_wp-content_uploads_2019_11_elon-musk-is-busy-tugging-himself-to-this-video.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="Cybertruck-3-1.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="download (1).jpg" style="width:100%">
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        
+            
+        
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="21327108-0-image-a-77_1574408625400.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="appcup7_tesla-cybertruck_625x300_22_November_19.webp" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="tesla-cybertruck-reveal.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="https___api.thedrive.com_wp-content_uploads_2019_11_elon-musk-is-busy-tugging-himself-to-this-video.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="Cybertruck-3-1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+              </div>    
+              <div class="column">
+                <img class="demo cursor" src="download (1).jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          <br><br><br>
+          <div class="container">
+              <div class="row">
+                  <article>
+                    Tesla on Thursday unveiled its first pickup truck, delivering on a promise by CEO Elon Musk to build an electric version of America’s favorite vehicle and one that threatens the heart of Detroit automakers’ profits.
+                    At a launch event in Los Angeles, Musk said the truck, which looked like a futuristic armored vehicle, will have a starting price of $39,900 and a maximum range of 500 plus miles.
+                    “We need sustainable energy now. If we don’t have a pickup truck we can’t solve it. The top 3 selling vehicles in America are pickup trucks. To solve sustainable energy, we have to have a pickup truck,” he said.
+                    Tesla passes 200,000 Cybertruck orders within 3 days of launch
+                    Production is expected to begin in late 2021.
+                    The truck marks the first foray by Tesla, whose Model 3 sedan is the world’s top-selling battery electric car, into pickup trucks, a market dominated by Ford, along with models by General Motors and Fiat Chrysler.
+                    The pickup shifts Tesla more toward trucks and SUVs. The automaker has so far sold mostly Model S and Model 3 sedans but also offers the Model X SUV and, starting next year, the Model Y compact SUV.
+                    A focus on the high-performance end of the market is only natural, given the success of Ford’s 450-horsepower F-150 Raptor truck, which launched in 2009 and whose sales have since risen annually, according to Ford spokesperson Mike Levine.
+                    While Ford does not disclose Raptor sales, Levine said annual demand is well above 19,000 vehicles, and the No. 2 U.S. automaker has never had to offer incentives on the model, which is priced in the high $60,000 range. Ford also offers the more expensive F-150 Limited, its most powerful and luxurious pickup.
+                    Ford and GM are also gearing up to challenge Tesla more directly with new offerings, like the Ford Mustang Mach E electric SUV, as well as electric pickups.
+                    Electric pickups and SUVs could help Ford and GM generate the significant EV sales they will need to meet tougher emission standards and EV mandates in California and other states.
+                    The Trump administration is moving to roll back those standards, but electric trucks are a hedge if California prevails.
+                    Demand for full-size electric pickup trucks in the near term may not be huge, however.
+                    Industry tracking firm IHS Markit estimates the electric truck segment — both full- and mid-sized models — will account for about 75,000 sales in 2026, compared with an expected 3 million light trucks overall. The Tesla truck is not part of that estimate.
+                    
+                    Tesla CEO Elon Musk indicated in a tweet on Sunday that the electric carmaker received 200,000 orders for its electric pickup truck within three days of its launch.
+                    Musk, who has been regularly tweeting about the Cybertruck’s features since its launch late Thursday, has also been updating his followers with the number of orders the company has received.
+                    
+                  </article>
+              </div>
+          </div>
+          <hr>
+
+          <!-- Footer -->
+     <footer class="page-footer  bg-white font-small pt-4" style="color: black;" >
+     
+       <!-- Footer Links -->
+       <div class="container-fluid text-center text-md-left">
+     
+         <!-- Grid row -->
+         <div class="row">
+     
+           <!-- Grid column -->
+           <div class="col-md-6 mt-md-0 mt-3">
+     
+             <!-- Content -->
+             <h5 class="text-uppercase">Footer Content</h5>
+             <p>The Daily press precisely brings you all the news you need without bias. Objectivity has always been our priority since out establishment in 1906.</p>
+     
+           </div>
+           <!-- Grid column -->
+     
+           <hr class="clearfix w-100 d-md-none pb-3">
+     
+           <!-- Grid column -->
+           <div class="col-md-3 mb-md-0 mb-3">
+     
+             <!-- Links -->
+             <h5 class="text-uppercase" style="color: black;"><strong>Links</strong></h5>
+             <hr>
+     
+             <ul class="list-unstyled">
+               <li>
+                 <a href="index.html" style="color: black;">Home</a>
+               </li>
+               <li>
+                 <a href="Politics.html" style="color: black;">Politics</a>
+               </li>
+               <li>
+                 <a href="sports.html" style="color: black;">Sports</a>
+               </li>
+               <li>
+                 <a href="entertainment.html" style="color: black;">Entertainment</a>
+               </li>
+             </ul>
+     
+           </div>
+           <!-- Grid column -->
+     
+           <!-- Grid column -->
+           <div class="col-md-3 mb-md-0 mb-3">
+     
+             <!-- Links -->
+             <h5 class="text-uppercase"><strong>Links</strong></h5>
+             <hr>
+     
+             <ul class="list-unstyled">
+               <li>
+                 <a href="unique1.html" style="color: black;">Gallery</a>
+               </li>
+               <li>
+                 <a href="unique2.html"  style="color: black;">Videos </a>
+               </li>
+     
+             </ul>
+     
+           </div>
+           <!-- Grid column -->
+     
+         </div>
+         <!-- Grid row -->
+     
+       </div>
+       <!-- Footer Links -->
+     <hr style="width: 50%;">
+       <!-- Copyright -->
+       <div class="footer-copyright text-center py-3">© 2020 Copyright:
+         <a href="https://mdbootstrap.com/education/bootstrap/" style="color:black"> The Daily Press</a>
+       </div>
+       <!-- Copyright -->
+     
+     </footer>
+     <!-- Footer -->
+          
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+            
+        </body>
+        </html>
+        
+</html>
